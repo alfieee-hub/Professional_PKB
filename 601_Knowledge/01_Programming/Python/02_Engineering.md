@@ -633,7 +633,7 @@ pip install -r requirements.txt    # 在新环境一键恢复所有依赖
 - `pip freeze`：输出 `package==version` 格式，供 `requirements.txt` 用。
 - `pip list`：人类可读的表格格式。
 
-**常见坑**：`pip freeze` 导出的是当前环境**全部**已装包（含间接依赖），多人协作时建议手写 `requirements.txt` 只列出直接依赖，版本号用 `>=` 而非 `==`。
+**常见坑**：`pip freeze` 导出的是当前环境**全部**已装包（含间接依赖），多人协作时建议手写 `requirements.txt` 只列出直接依赖，版本号用 `>=` 而非 等号等号。
 
 #### 目录结构惯例
 
